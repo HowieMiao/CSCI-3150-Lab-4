@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whats everyone's Favorite Animal?</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <a class="skip-link" href="#intro">Skip to main content</a>
+    <header><h1>Everyone's Favorite Animals by Who they Are!</h1></header>
+    <main>
+        <section class = "container">
+        <nav id="table-of-contents">
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#form">Your Turn!</a></li>
+                <li><a href="#data">Our Data</a></li>
+            </ul>
+        </nav>
+            <header id="introHeader">
+                <h2 id="intro">Intro</h2>
+                <p>
+                    Everyone has to have an animal they value or appreciate over many others, here we hope to collect a lot of people's favorite(s) and why! 
+                    For me personally I used to be a big fan of pandas when I was a kid, maybe it was because it was how exotic they were and I wanted to be unique, or maybe it was because of how large and cuddly they looked.
+                    As I grew up it ended up becoming dogs, because I just saw how amazing they were as pets I couldn't help but want one for myself, I eventually got one when I was in 7th grade and loved (and stil love) her to death.
+                    Though now as of recent I've become a big cat fanatic, I think this is because I've adopted a much more relaxed lifestyle that cats seem to fit much easier.
+                </p>
+            </header>
+
+            <aside id="yourTurn">
+                <h2 id="form">Your Turn!</h2>
+                <p>Its your turn! Tell us who you are, what your favorite animal is and anything else about yourself!</p>
+                <section>    
+                    <q>Until one has loved an animal, a part of one’s soul remains unawakened.”</q>
+                    <cite>Anatole France</cite>
+                </section>
+            </aside>
+            <br>
+
+            <form id="myform" method="post">
+                <fieldset>
+                    <legend>Tell us about you!</legend>
+
+                    <label for="fName">
+                        Whats is your first name? *                        
+                        <span class="material-icons">person</span>
+                        <input type="text"  id="fName" required>
+                    </label>
+
+                    <label for="lName">
+                        What is your last name? *
+                        <input type="text"  id="lName" required>
+                    </label>
+
+                    <label for="age">
+                        How old are you? *
+                        <input type="number"  id="age" required>
+                    </label>
+
+                    <label for="favAnimal">
+                        What is your favorite animal? *
+                        <span class="material-icons">sunny</span>
+                        <input type="text"  id="favAnimal" required>
+                    </label>
+
+                    <label for="explanation">
+                        Why is it your favorite?
+                        <span class="material-icons">cookie</span>
+                        <input type="text"  id="explanation">
+                    </label>
+                    <ul class="explanationSuggestion">
+                            <details>
+                            <summary>What to submit</summary>
+                            <p>Where'd you first encounter them? What makes them so unique to any other animal you might enjoy?</p>
+                            </details>
+                    </ul>
+                    <label for="extra">
+                        Any other favorites?
+                        <input type="text"  id="extra">
+                    </label>
+                    
+                    <input type="submit">
+                </fieldset>
+            </form>
+            <table id="data">
+                <caption> Response List</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Age</th>
+                            <th scope="col">Favorite Animal</th>
+                            <th scope="col">Why?</th>
+                            <th scope="col">Extras!</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Howie</td>
+                            <td>Miao</td>
+                            <td>23</td>
+                            <td>Cats</td>
+                            <td>Big Chillers, not high maintence animals!</td>
+                            <td>Pandas, Dog, Racoons</td>
+                        </tr>
+                        <tr>
+                            <td>Clarice</td>
+                            <td>Gaw</td>
+                            <td>23</td>
+                            <td>Dogs</td>
+                            <td>Fluffy friendly and have always been around them</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Sam</td>
+                            <td>Taylor</td>
+                            <td>24</td>
+                            <td>Dolphins</td>
+                            <td>Diving and being able to interact with these amazingly smart animals is lifechanging</td>
+                            <td>Cats, Fish</td>
+                        </tr>
+                    </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
+
+<!-- Need:
+    Form /
+    Skip Nav / 
+    Table /
+    Fonts
+    Icons
+    Increase Font Size
+    Add to Class Portal
+ -->
